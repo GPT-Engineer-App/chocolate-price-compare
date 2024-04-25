@@ -1,4 +1,5 @@
 import { Box, Flex, Heading, Select, Text, VStack, Image, SimpleGrid, Stat, StatLabel, StatNumber, StatHelpText, StatArrow } from "@chakra-ui/react";
+import PriceTrendGraph from "../components/PriceTrendGraph";
 import { FaGlobeEurope, FaStore } from "react-icons/fa";
 
 const Index = () => {
@@ -61,6 +62,7 @@ const Index = () => {
           </StatHelpText>
         </Stat>
       </SimpleGrid>
+      <PriceTrendGraph />
     </Box>
   );
 };
